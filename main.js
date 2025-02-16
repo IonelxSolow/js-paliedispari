@@ -12,6 +12,8 @@ if (parolaUtente){
     } else {
         console.log("La parola NON E un 'palindroma', scrivi una parola palindroma")
     }
+} else {
+    console.log("Scrivi una parola palindroma")
 }
 /* function parolaPalindroma() */
 
@@ -23,4 +25,17 @@ function parolaPalindroma(parola){
 
 
 
+/* const character = "#";
+const count = 8;
+const rows = [];
 
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+  console.log(rows)
+}
+
+let result = "";
+
+for (const row of rows){
+    result = result + row;
+} */
